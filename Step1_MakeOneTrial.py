@@ -50,9 +50,15 @@ win.flip()
 if option_chosen[0] == 'a':
     option_A_chosen += 1
     event.clearEvents()
+    option_A.hide()
+    option_B.hide()
+    win.flip()
 if option_chosen[0] == 'b':
     option_B_chosen += 1
     event.clearEvents()
+    option_A.hide()
+    option_B.hide()
+    win.flip()
 
 #%% Required clean up
 # this cell will make sure that your window displays for a while and then 
